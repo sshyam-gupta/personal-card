@@ -1,16 +1,13 @@
-It's me, Tierney!
+It's me, Shyam!
 
 # Usage
 
 ## npm
 ```
-npx bitandbang
+npx sshyam-gupta
 ```
 
-## GitHub Package Registry
-Assuming you have the GitHub registry set up, you can use via npx:
-```
-npx @bnb/card
-```
+## Screenshot
+![Screenshot](./bin/Screenshot 2020-02-05 at 11.33.47 PM.png)
 
-Not including how to use it globally because I'm not sure why you'd want this as a global command. That'd be creepy.
+Credits - [repository](https://github.com/bnb/bitandbang) crafted by [Tierney](https://twitter.com/bitandbang)
