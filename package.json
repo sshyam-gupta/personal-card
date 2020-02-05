@@ -1,21 +1,20 @@
 {
-  "name": "@bnb/card",
-  "version": "1.6.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
-  "main": "/bin/card.js",
+  "name": "sshyam-gupta",
+  "version": "1.0.0",
+  "description": "A personal card for Shyam Gupta",
+  "main": "./bin/personal-card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "sshyam-gupta": "./bin/personal-card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bnb/bitandbang.git"
+    "url": "git+https://github.com/sshyam-gupta/personal-card.git"
   },
-  "homepage": "https://bnb.im",
+  "homepage": "https://sshyam-gupta.netlify.com",
   "scripts": {
-    "prepublish": "npm run build",
+    "prepublish": "yarn build",
     "build": "node build.js",
-    "dev": "npm run build && node ./bin/card.js",
-    "lint": "standard",
+    "dev": "yarn build && node ./bin/personal-card.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -24,24 +23,16 @@
     "npm card",
     "npx",
     "npx card",
-    "business card"
+    "business card",
+    "personal card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Shyam Gupta <shyamm@outlook.com> (https://sshyam-gupta.netlify.com)",
   "license": "MIT",
-  "files": [
-    "bin/card.js",
-    "bin/output"
-  ],
   "devDependencies": {
     "boxen": "^2.1.0",
-    "chalk": "^2.4.1",
-    "standard": "^12.0.1"
+    "chalk": "^2.4.1"
   },
   "bugs": {
-    "url": "https://github.com/bnb/bitandbang/issues"
-  },
-  "dependencies": {},
-  "publishConfig": {
-    "registry": "https://npm.registry.github.com/"
+    "url": "https://github.com/sshyam-gupta/personal-card/issues"
   }
 }
