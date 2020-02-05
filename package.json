@@ -13,8 +13,8 @@
   "homepage": "https://sshyam-gupta.netlify.com",
   "scripts": {
     "prepublish": "yarn build",
-    "build": "node build.js",
-    "dev": "yarn build && node ./bin/personal-card.js",
+    "build": "node ./bin/personal-card.js",
+    "dev": "yarn build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -28,11 +28,14 @@
   ],
   "author": "Shyam Gupta <shyamm@outlook.com> (https://sshyam-gupta.netlify.com)",
   "license": "MIT",
-  "devDependencies": {
-    "boxen": "^2.1.0",
-    "chalk": "^2.4.1"
-  },
+  "devDependencies": {},
   "bugs": {
     "url": "https://github.com/sshyam-gupta/personal-card/issues"
+  },
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^3.0.0",
+    "inquirer": "^7.0.4",
+    "open": "^7.0.2"
   }
 }
